@@ -1,4 +1,5 @@
 body {
+    background-color: darkcyan;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -15,7 +16,7 @@ h1 {
 }
 .description {
     font-family: 'Orbitron',fantasy;
-    font-size: 20px;
+
 }
 h2 {
     font-family:'Montserrat',sans-serif ;
