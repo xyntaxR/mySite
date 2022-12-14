@@ -1,11 +1,10 @@
 body {
-    background-color: darkcyan;
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    background-color: darkcyan;
 }
 .top-container {
-    background-color: darkcyan;
     position: relative;
     padding-top: 100px;
 }   
@@ -16,7 +15,7 @@ h1 {
 }
 .description {
     font-family: 'Orbitron',fantasy;
-
+    font-size: 20px;
 }
 h2 {
     font-family:'Montserrat',sans-serif ;
@@ -29,9 +28,37 @@ h3 {
     top: 30px;
     right: 150px;
 }
-
 .cloud2 {
     position: absolute;
     left: 150px;
     top: 200px;
 }
+.skill-row {
+    width: 50%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+}
+.web-skill {
+    width: 18%;
+    float: left;
+    margin-right: 20px;
+}
+.math-skill {
+    width: 18%;
+    float: right;
+   
+    padding: 0;
+}
+.team-skill {
+    width: 18%;
+    float: left;
+    margin-right: 20px;
+}
+.bottom-container {
+    margin-top: 20px;
+}
+.link {
+    width: 30px;
+    margin: 10px;
+}
+
