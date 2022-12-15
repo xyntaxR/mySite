@@ -2,14 +2,15 @@ body {
     margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
-    background-color: darkcyan;
+    background-color: lightgreen;
 }
 .top-container {
     position: relative;
     padding-top: 100px;
+    background-color: seagreen;
 }  
 p {
-  line-height: 2;
+  line-height: 3;
 }
 h1 {
     margin-top: 0px;
@@ -38,7 +39,7 @@ h3 {
     top: 200px;
 }
 .skill-row {
-    width: 50%;
+    width: 60%;
     margin: 50px auto 100px auto;
     text-align: left;
 }
@@ -61,49 +62,54 @@ h3 {
 .bottom-container {
     margin-top: 20px;
     padding: 40px 0 20px;
-    background-color: cadetblue
+    background-color: seagreen;
 }
 .link {
     width: 65px;
     margin: 10px;
 }
+.link:hover {
+    background-color: lightgreen;
+    border-radius: 8px;
+}
 hr {
   margin-top: 100px;
   margin-bottom: 100px;
-  width: 30%;
+  width: 20%;
   border-width: 5px 0px 0px 0px;
   display: 0px;
   border-style: solid;
-  border-color: cadetblue
+  border-color: seagreen;
   
  
 }
 .btn {
-  background: #11cdd4;
-  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: "Montserrat", Georgia;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-}
+    background: mediumseagreen;
+    background-image: -webkit-linear-gradient(top, mediumseagreen, seagreen);
+    background-image: -moz-linear-gradient(top, mediumseagreen, seagreen);
+    background-image: -ms-linear-gradient(top, mediumseagreen, seagreen);
+    background-image: -o-linear-gradient(top, mediumseagreen, seagreen);
+    background-image: linear-gradient(to bottom, mediumseagreen, seagreen);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #66d68d;
+    background-image: -webkit-linear-gradient(top, #66d68d, #44db74);
+    background-image: -moz-linear-gradient(top, #66d68d, #44db74);
+    background-image: -ms-linear-gradient(top, #66d68d, #44db74);
+    background-image: -o-linear-gradient(top, #66d68d, #44db74);
+    background-image: linear-gradient(to bottom, #66d68d, #44db74);
+    text-decoration: none;
+  }
 
-.btn:hover {
-  background: #30e3cb;
-  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-  text-decoration: none;
-}
 .intro {
   width: 50%;
   margin: auto;
@@ -111,5 +117,5 @@ hr {
 .contact {
   margin: 10px auto 30px;
   width: 50%;
-  
+  background-color: ligh;
 }
