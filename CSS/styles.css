@@ -134,7 +134,8 @@ hr {
     text-decoration: none;
     position: fixed;
     right: 50px;
-    top: 580px;
+    bottom: 100px;
+    width: 10px;
   }
   .btnsty:hover {
     background: #66d68d;
@@ -144,4 +145,15 @@ hr {
     background-image: -o-linear-gradient(top, #66d68d, #44db74);
     background-image: linear-gradient(to bottom, #66d68d, #44db74);
     text-decoration: none;
+  }
+  .mess {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+  }
+  .mess-img {
+    width: 100px;
+  }
+  .mess-img:hover {
+    width: 130px;
   }
